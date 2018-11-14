@@ -1,0 +1,1130 @@
+[
+  {
+    "description": "    As a manager\n    I want to manage dashboards\n    So I can create, search, edit and delete dashboards",
+    "elements": [
+      {
+        "id": "dashboard;successfully-create-a-dashboard-with-all-information-filled",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Successfully create a dashboard with all information filled",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 10001372801
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on new dashboard modal",
+            "result": {
+              "status": "failed",
+              "duration": 5027017200,
+              "error_message": "Error: element (\"#actionBar-button-new\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 11,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill all the fields",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I save the dashboard",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the created dashboard on the list",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 141999
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "dashboard;search-for-a-dashboard",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Search for a dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2056344300
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for a dashboard",
+            "result": {
+              "status": "failed",
+              "duration": 5022115199,
+              "error_message": "Error: element (\"#dashboards-search-searchForm-input\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 17,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see only the dashboards with matches with I typed",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 80200
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "dashboard;successfully-edit-the-required-fields-of-a-dashboard",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Successfully edit the required fields of a dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2075908699
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am editing the \"Sales Management\" dashboard",
+            "result": {
+              "status": "failed",
+              "duration": 5021410201,
+              "error_message": "Error: element (\"#dashboardItem-text-name\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 21,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I change the required fields",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I save the dashboard",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the edited dashboard with the new data",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 58099
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "dashboard;successfully-delete-a-dashboard",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Successfully delete a dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2107672300
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I delete a dashboard",
+            "result": {
+              "status": "failed",
+              "duration": 5025566500,
+              "error_message": "Error: element (\"#actionBar-button-edit\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 27,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should not see the deleted dashboard on the list",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 130401
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Dashboard",
+    "tags": [
+      {
+        "name": "@Analytics",
+        "line": 1
+      }
+    ],
+    "uri": "D:/LabsX/Cloud/midgard-module-analytics/e2e/features/Dashboard.feature"
+  },
+  {
+    "description": "    As a manager\n    I want to manage views\n    So I can see informations on a graph view to support my decision-making",
+    "elements": [
+      {
+        "id": "dashboard-view;successfully-create-a-view",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Successfully create a view",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2098156399
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on \"Sales Management 2\" dashboard view",
+            "result": {
+              "status": "failed",
+              "duration": 5018045901,
+              "error_message": "Error: element (\"#dashboardItem-text-name\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 11,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I create a view",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the created view's tab",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 129399
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "dashboard-view;edit-permissions-of-a-view",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Edit permissions of a view",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2104432699
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on \"Sales Management 3\" dashboard view",
+            "result": {
+              "status": "failed",
+              "duration": 5017158101,
+              "error_message": "Error: element (\"#dashboardItem-text-name\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 16,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I open the view settings",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I remove all permissions",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I give permissions to \"Administrador\" user",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The permisions modal must be closed",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 523300
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "dashboard-view;successfully-delete-a-view",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Successfully delete a view",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2604014899
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on \"Sales Management 4\" dashboard view",
+            "result": {
+              "status": "failed",
+              "duration": 5017850400,
+              "error_message": "Error: element (\"#dashboardItem-text-name\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 23,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I access the view that I want to delete",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the view settings",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I delete the view",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should not see the deleted view's tab",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 194500
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard-view",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Dashboard view",
+    "tags": [
+      {
+        "name": "@Analytics",
+        "line": 1
+      }
+    ],
+    "uri": "D:/LabsX/Cloud/midgard-module-analytics/e2e/features/DashboardView.feature"
+  },
+  {
+    "description": "    As a manager\n    I want to build KPIs\n    So I can customize graphs to see the informations what I want",
+    "elements": [
+      {
+        "id": "kpi;successfully-build-a-kpi",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Successfully build a KPI",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2117421099
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on \"Sales Management 5\" dashboard view",
+            "result": {
+              "status": "failed",
+              "duration": 5020102900,
+              "error_message": "Error: element (\"#dashboardItem-text-name\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 11,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the KPI builder",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I build a multi series horizontal bar chart",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I save the KPI",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the KPI listed on dashboard's view",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 303201
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "kpi;successfully-edit-kpi-information",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Successfully edit KPI information",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2085462700
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am editing a KPI of \"Sales Management 6\" dashboard",
+            "result": {
+              "status": "failed",
+              "duration": 5019838900,
+              "error_message": "Error: element (\"#dashboardItem-text-name\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 18,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I remove all the fields",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I add new fields",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:111"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I change the chart type to grid",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I change the KPI properties",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:134"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I save the KPI",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the KPI listed on dashboard's view",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 381200
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "kpi;successfully-delete-a-kpi",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Successfully delete a KPI",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2069986999
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on \"Sales Management 7\" dashboard view",
+            "result": {
+              "status": "failed",
+              "duration": 5015978999,
+              "error_message": "Error: element (\"#dashboardItem-text-name\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 27,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I delete a KPI",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see an empty state",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 276699
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "kpi;successfully-disable-a-kpi",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Successfully disable a KPI",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2096674200
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am editing a KPI of \"Sales Management 8\" dashboard",
+            "result": {
+              "status": "failed",
+              "duration": 5014195400,
+              "error_message": "Error: element (\"#dashboardItem-text-name\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 32,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I change active to off",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I save the KPI",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see an empty state",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 268600
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "kpi;cancel-the-edit-of-a-kpi",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Cancel the edit of a KPI",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2089509101
+            },
+            "line": 8,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am editing a KPI of \"Sales Management 9\" dashboard",
+            "result": {
+              "status": "failed",
+              "duration": 5014133400,
+              "error_message": "Error: element (\"#dashboardItem-text-name\") still not visible after 5000ms\n    at new WaitUntilTimeoutError (D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 38,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I change the KPI's title",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:130"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "name": "I go back to the dashboard's view",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/when.js:149"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the KPI is not edited",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "match": {
+              "location": "D:/LabsX/Cloud/midgard-module-analytics/e2e/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 442699
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\LabsX\\Cloud\\midgard-module-analytics\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Analytics",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "kpi",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "KPI",
+    "tags": [
+      {
+        "name": "@Analytics",
+        "line": 1
+      }
+    ],
+    "uri": "D:/LabsX/Cloud/midgard-module-analytics/e2e/features/KPI.feature"
+  }
+]
