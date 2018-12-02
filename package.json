@@ -9,10 +9,8 @@
   },
   "author": "thiago.pessini",
   "license": "ISC",
-  "devDependencies": {
-    "commander": "^2.18.0",
-    "pg": "^7.4.3",
-    "pg-hstore": "^2.3.2",
-    "sequelize": "^4.38.1"
+  "devDependencies": {},
+  "dependencies": {
+    "request": "^2.88.0"
   }
 }
