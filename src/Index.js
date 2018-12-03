@@ -1,6 +1,11 @@
 const request = require('request');
+if (process.env.NODE_ENV !== 'production') {
+    const result = require('dotenv').config();
+    if (result.error) {
+        console.info("Error while loading environment variables: ", result);
+    }
+};
 
-console.log('Loading parameters...');
 let talkei = true; //This variable define if it is everything ok to the normal execution
 const kvasir_api_version = process.env.KVASIR_API_VERSION || 1;
 const params = {
@@ -64,9 +69,9 @@ if (talkei) {
         json: scenarios
     },
         (error, response, body) => {
-            if(response && response.statusCode === 201){
+            if (response && response.statusCode === 201) {
                 console.info(`Request made successfully to ${params.kvasir_address}`);
-            }else{
+            } else {
                 console.error(`An error occurred during the request\nError: ${error}\nResponse:`, body);
             }
         }
